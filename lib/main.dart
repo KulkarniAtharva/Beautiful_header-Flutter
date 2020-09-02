@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage>
                       fit: BoxFit.cover,
                     ),
                     new Opacity(
-                      opacity: 0.5,
+                      opacity: 0.7,
                       child: new Container(color: Colors.blueGrey),
                     ),
                     new Transform.translate(
@@ -69,8 +69,7 @@ class _MyHomePageState extends State<MyHomePage>
                               shape: BoxShape.circle,
                               image: new DecorationImage(
                                 fit: BoxFit.fill,
-                                image: NetworkImage(
-                                    "https://avatars2.githubusercontent.com/u/3234592?s=460&v=4"),
+                                image: new AssetImage("assets/images/Atharva4.jpg"),
                               ),
                             ),
                           ),
