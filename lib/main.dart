@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage>
                               shape: BoxShape.circle,
                               image: new DecorationImage(
                                 fit: BoxFit.fill,
-                                image: new AssetImage("assets/images/Atharva4.jpg"),
+                                image: new AssetImage("assets/images/Atharva.jpg"),
                               ),
                             ),
                           ),
@@ -129,8 +129,7 @@ class _MyHomePageState extends State<MyHomePage>
                             padding: const EdgeInsets.only(top: 10.0, left: 30.0),
                             child: new Text(
                               "August 1, 2020",
-                              style:
-                              new TextStyle(color: Colors.grey, fontSize: 12.0),
+                              style: new TextStyle(color: Colors.grey, fontSize: 12.0),
                             ),
                           ),
                         ),
@@ -219,14 +218,14 @@ class TaskTile extends StatelessWidget
       title: new Padding(
         padding: const EdgeInsets.all(4.0),
         child: new Text(
-          "Make new icons",
+          "Coding all day",
           style: new TextStyle(fontSize: 18.0),
         ),
       ),
       subtitle: new Padding(
         padding: const EdgeInsets.all(4.0),
         child: new Text(
-          "WebApp",
+          "It's divine coding",
           style: new TextStyle(fontSize: 12.0, color: Colors.grey),
         ),
       ),
