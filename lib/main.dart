@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget
   Widget build(BuildContext context)
   {
     return new MaterialApp(
-      title: 'Flutter Header',
+      title: 'Beautiful Header',
       debugShowCheckedModeBanner: false,
       theme: new ThemeData(
         primarySwatch: Colors.blue,
@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage>
               Icons.menu,
               color: Colors.white,
             )),
-        elevation: 3.0,
+        elevation: 0.0,
         backgroundColor: Colors.transparent,
         //title: new Text("Design Inspiration"),
         actions: <Widget>[new Icon(Icons.more_horiz)],
@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage>
                 child: new Stack(
                   children: [
                     new Image.network(
-                      "https://thumbs.dreamstime.com/b/sky-birds-background-5725652.jpg",
+                      "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
                       fit: BoxFit.cover,
                     ),
                     new Opacity(
